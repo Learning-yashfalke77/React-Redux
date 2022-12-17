@@ -1,0 +1,29 @@
+{
+  "name": "redux-starter",
+  "version": "1.0.0",
+  "description": "Redux Starter Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Mosh Hamedani",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.1",
+    "axios": "^0.24.0",
+    "moment": "^2.29.1",
+    "redux": "^4.1.2"
+  }
+}

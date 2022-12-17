@@ -1,0 +1,17 @@
+1) In redux we store our application state inside a single javascript object called store
+2) This object is truth / source of all application of state and it is acessible to all parts of the ui
+3) Redux built  on top of functional programming 
+4) So store is a immutable object we cant update directly
+5) To update it we create a function which stores the store as a argument and return updated store, so in this fun use spread or immutable object library, this function is called reducer
+6) reducer takes the current instance of store and returns the updated store
+7) how dooes the reducer know that what it should update inside the store ?
+8) So we need another building block called an action 
+9) action is just a plain js text that describes what just happened in reducer function
+10) give reducer action as a second parameter
+11) Based on the action the reducer will update the store and return it
+12) Building blocks in redux: action (event), store, reducers (event handlers)
+13) Whenever to create a redux follow the following steps:
+   a) design the store
+   b) define the actions
+   c) create a reducers
+   d) setup the store on updating
